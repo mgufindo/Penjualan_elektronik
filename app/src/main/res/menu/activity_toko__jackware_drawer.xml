@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/Penjualan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Penjualan" />
+
+            <item
+                android:id="@+id/stock"
+                android:title="Stock Toko"/>
+            <item
+                android:id="@+id/mingguan"
+                android:title="Stock Gudang"
+                />
+            <item
+                android:title="Data Karyawan"
+                android:id="@+id/Data"/>
+        <item
+            android:id="@+id/pemasukkan"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Pemasukkan" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Kirim data penjualan" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
